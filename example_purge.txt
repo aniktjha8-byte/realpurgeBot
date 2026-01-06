@@ -1,0 +1,26 @@
+# Bunny CDN Cache Purge Configuration File
+# Lines starting with # are comments and will be ignored
+# Blank lines separate accounts
+
+# Production Account
+production_cdn
+api : abcd1234-5678-90ef-ghij-klmnopqrstuv
+https://cdn.example.com/images/logo.png
+https://cdn.example.com/css/styles.css
+https://cdn.example.com/js/app.js
+https://cdn.example.com/fonts/roboto.woff2
+
+# Staging Account
+staging_cdn
+api : wxyz9876-5432-10ab-cdef-ghijklmnopqr
+https://staging.example.com/assets/image1.jpg
+https://staging.example.com/assets/image2.jpg
+https://staging.example.com/assets/banner.png
+
+# Another Account Example
+my_website_cdn
+api : another_api_key_with_at_least_10_chars
+https://mysite.com/static/main.bundle.js
+https://mysite.com/static/vendor.bundle.js
+https://mysite.com/images/hero.webp
+https://mysite.com/videos/intro.mp4
